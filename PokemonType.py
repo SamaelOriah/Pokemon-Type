@@ -74,7 +74,10 @@ class Normal():
     Immune=["Ghost"]
 
 class Steel():
-        pass
+    pass
+
+class Dark():
+    pass
 
 #Setting window size and title of window
 root = tk.Tk()  
@@ -177,3 +180,4 @@ lbl.place(x=325,y=325)
 
 
 root.mainloop()
+
