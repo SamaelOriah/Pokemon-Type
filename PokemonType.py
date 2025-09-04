@@ -74,8 +74,8 @@ class Normal():
     Immune=["Ghost"]
 
 class Flying():
-    strong=["Grass","Fighting","Bug"]
-    weak=["Electric","Rock","Steel"]
+    Strong=["Grass","Fighting","Bug"]
+    Weak=["Electric","Rock","Steel"]
     
 class Psychic():
     Strong=["Fighting","Poison"]
@@ -83,9 +83,9 @@ class Psychic():
     Immune=["Dark"]
 
 class Ghost():
-    strong=["Psychic","Ghost"]
-    weak=["Dark"]
-    immune=["Normal"]
+    Strong=["Psychic","Ghost"]
+    Weak=["Dark"]
+    Immune=["Normal"]
         
 class Dark():
     pass
@@ -194,3 +194,4 @@ lbl.place(x=325,y=325)
 
 
 root.mainloop()
+
