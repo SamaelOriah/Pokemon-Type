@@ -73,10 +73,24 @@ class Normal():
     Weak=["Rock","Steel"]
     Immune=["Ghost"]
 
-class Steel():
-    pass
+class Flying():
+    strong=["Grass","Fighting","Bug"]
+    weak=["Electric","Rock","Steel"]
+    
+class Psychic():
+    Strong=["Fighting","Poison"]
+    Weak=["Psychic","Steel"]
+    Immune=["Dark"]
+
+class Ghost():
+    strong=["Psychic","Ghost"]
+    weak=["Dark"]
+    immune=["Normal"]
         
 class Dark():
+    pass
+
+class Steel():
     pass
 
 #Setting window size and title of window
