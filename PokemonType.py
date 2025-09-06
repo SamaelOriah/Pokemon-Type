@@ -109,45 +109,75 @@ def show():
         weak=a.Weak
         immune=""   
     if cb.get()=="Ice":
-            a=Ice()
-            strong=a.Strong
-            weak=a.Weak
-            immune=""
+        a=Ice()
+        strong=a.Strong
+        weak=a.Weak
+        immune=""
     if cb.get()=="Electric":
-            a=Electric()
-            strong=a.Strong
-            weak=a.Weak
-            immune=a.Immune
+        a=Electric()
+        strong=a.Strong
+        weak=a.Weak
+        immune=a.Immune
     if cb.get()=="Fighting":
-            a=Fighting()
-            strong=a.Strong
-            weak=a.Weak
-            immune=a.Immune
+        a=Fighting()
+        strong=a.Strong
+        weak=a.Weak
+        immune=a.Immune
     if cb.get()=="Poison":
-            a=Poison()
-            strong=a.Strong
-            weak=a.Weak
-            immune=a.Immune
+        a=Poison()
+        strong=a.Strong
+        weak=a.Weak
+        immune=a.Immune
     if cb.get()=="Water":
-            a=Water()
-            strong=a.Strong
-            weak=a.Weak
-            immune=""
+        a=Water()
+        strong=a.Strong
+        weak=a.Weak
+        immune=""
     if cb.get()=="Grass":
-            a=Grass()
-            strong=a.Strong
-            weak=a.Weak
-            immune=""
+        a=Grass()
+        strong=a.Strong
+        weak=a.Weak
+        immune=""
     if cb.get()=="Bug":
-            a=Bug()
-            strong=a.Strong
-            weak=a.Weak
-            immune=""
+        a=Bug()
+        strong=a.Strong
+        weak=a.Weak
+        immune=""
     if cb.get()=="Dragon":
-            a=Dragon()
-            strong=a.Strong
-            weak=a.Weak
-            immune=""            
+        a=Dragon()
+        strong=a.Strong
+        weak=a.Weak
+        immune=""   
+    if cb.get()=="Rock":
+        a=Rock()
+        strong=a.Strong
+        weak=a.Weak
+        immune="" 
+    if cb.get()=="Ground":
+        a=Ground()
+        strong=a.Strong
+        weak=a.Weak
+        immune=a.Immune   
+    if cb.get()=="Normal":
+        a=Flying()
+        strong=""
+        weak=a.Weak
+        immune=a.Immune   
+    if cb.get()=="Flying":
+        a=Flying()
+        strong=a.Strong
+        weak=a.Weak
+        immune="" 
+    if cb.get()=="Psychic":
+        a=Psychic()
+        strong=a.Strong
+        weak=a.Weak
+        immune=a.Immune   
+    if cb.get()=="Ghost":
+        a=Ghost()
+        strong=a.Strong
+        weak=a.Weak
+        immune=a.Immune  
     for x in strong:
         T1.insert(END,f"{x}\n")
     for x in weak:
@@ -194,4 +224,5 @@ lbl.place(x=325,y=325)
 
 
 root.mainloop()
+
 
