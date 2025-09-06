@@ -161,7 +161,7 @@ def show():
         weak=a.Weak
         immune=a.Immune   
     if cb.get()=="Normal":
-        a=Flying()
+        a=Normal()
         strong=""
         weak=a.Weak
         immune=a.Immune   
@@ -236,6 +236,7 @@ lbl.place(x=325,y=325)
 
 
 root.mainloop()
+
 
 
 
