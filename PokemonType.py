@@ -88,10 +88,12 @@ class Ghost():
     Immune=["Normal"]
         
 class Dark():
-    pass
+    Strong=["Psychic","Ghost"]
+    Weak=["Fighting","Dark"]
 
 class Steel():
-    pass
+    Strong=["Ice","Rock"]
+    Weak=["Fire","Water","Electric","Steel"]
 
 #Setting window size and title of window
 root = tk.Tk()  
@@ -178,6 +180,16 @@ def show():
         strong=a.Strong
         weak=a.Weak
         immune=a.Immune  
+    if cb.get()=="Dark":
+        a=Dark()
+        strong=a.Strong
+        weak=a.Weak
+        immune=""
+    if cb.get()=="Steel":
+        a=Steel()
+        strong=a.Strong
+        weak=a.Weak
+        immune=""
     for x in strong:
         T1.insert(END,f"{x}\n")
     for x in weak:
@@ -224,5 +236,6 @@ lbl.place(x=325,y=325)
 
 
 root.mainloop()
+
 
 
